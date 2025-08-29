@@ -1,0 +1,25 @@
+menu "MQTT Broker Configuration"
+
+    config BROKER_URL
+        string "Mqtt Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the broker to connect to
+    
+    config BROKER_USERNAME
+        string "Mqtt Broker Username"
+        default ""
+        help
+            Username of the broker, if there are any (leave empty if there are none)
+
+    config BROKER_PASSWORD
+        string "Mqtt Broker Password"
+        default ""
+        help
+            Password of the broker, if there are any (leave empty if there are none)
+
+    config BROKER_URL_FROM_STDIN
+        bool
+        default y if BROKER_URL = "FROM_STDIN"
+
+endmenu
