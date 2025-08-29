@@ -1,0 +1,68 @@
+---
+Language:        C
+AccessModifierOffset: -1
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: None
+AlignConsecutiveAssignments:
+  Enabled:         false
+AlignConsecutiveDeclarations:
+  Enabled:         false
+AlignEscapedNewlines: Left
+AlignOperands:   Align
+AlignTrailingComments:
+  Kind:            Always
+  OverEmptyLines:  0
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakBeforeMultilineStrings: true
+BinPackArguments: true
+BinPackParameters: BinPack
+BitFieldColonSpacing: Both
+BraceWrapping:
+  AfterFunction:   false
+  AfterStruct:     false
+  AfterEnum:       false
+  BeforeElse:      false
+  IndentBraces:    false
+BreakBeforeBraces: Attach
+BreakStringLiterals: true
+ColumnLimit:     80
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+DerivePointerAlignment: true
+DisableFormat:   false
+FixNamespaceComments: false   # C has no namespaces
+IndentCaseBlocks: false
+IndentCaseLabels: true
+IndentGotoLabels: true
+IndentPPDirectives: None
+InsertBraces:    false
+InsertNewlineAtEOF: false
+KeepEmptyLines:
+  AtEndOfFile:     false
+  AtStartOfFile:   true
+MaxEmptyLinesToKeep: 1
+PointerAlignment: Left
+ReflowComments:  Always
+SeparateDefinitionBlocks: Always
+SortIncludes:    false
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeParens: ControlStatements
+SpacesInAngles:  Never
+SpacesInContainerLiterals: true
+SpacesInParens:  Never
+SpacesInSquareBrackets: false
+UseTab:          ForIndentation
+IndentWidth:     4
+TabWidth:        4
+...

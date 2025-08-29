@@ -12,7 +12,7 @@ def test_hello_world(dut):
 def test_system_info(dut):
     """Test system information output"""
     dut.expect('Chip Info:')
-    dut.expect('Model: esp32')
+    dut.expect('Model: esp32s3')
     dut.expect('Cores: 2')  # Most ESP32 have 2 cores
     dut.expect('Free Heap:')
 
